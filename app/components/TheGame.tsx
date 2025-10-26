@@ -9,9 +9,9 @@ const TheGame = () => {
             <p className="mb-4 font-satoshi">*Bathala* is a single-player, deck-building roguelike set in a world steeped in Filipino mythology. The core of the game revolves around a unique **poker-based combat system**. You are the Babaylan, a spiritual leader tasked with a divine quest: to journey through corrupted lands and restore cosmic harmony.</p>
             <p className="mb-4 font-satoshi">Each run challenges you to survive a procedurally generated world, where every encounter and every choice matters. You will:</p>
             <ul className="list-disc list-inside mb-4 font-satoshi">
-              <li>**BUILD YOUR HAND:** Draw from a 52-card deck and form powerful poker hands to attack, defend, and unleash special abilities.</li>
-              <li>**SCULPT YOUR DECK:** At campfires and shops, you can **Purify** (remove), **Attune** (upgrade), and **Infuse** (add) cards, strategically shaping your deck to suit your playstyle.</li>
-              <li>**SURVIVE THE CYCLE:** Journey through a world that shifts between day and night. Actions advance the clock, with the day offering safer passage and the night bringing more aggressive and dangerous foes. Survive five full cycles to confront the chapter's final boss.</li>
+              <li key="1">**BUILD YOUR HAND:** Draw from a 52-card deck and form powerful poker hands to attack, defend, and unleash special abilities.</li>
+              <li key="2">**SCULPT YOUR DECK:** At campfires and shops, you can **Purify** (remove), **Attune** (upgrade), and **Infuse** (add) cards, strategically shaping your deck to suit your playstyle.</li>
+              <li key="3">**SURVIVE THE CYCLE:** Journey through a world that shifts between day and night. Actions advance the clock, with the day offering safer passage and the night bringing more aggressive and dangerous foes. Survive five full cycles to confront the chapter's final boss.</li>
             </ul>
             <p className="font-satoshi">*Bathala* is a game of strategy, adaptation, and cultural discovery, designed to be endlessly replayable.</p>
           </div>

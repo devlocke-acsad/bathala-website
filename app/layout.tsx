@@ -22,6 +22,9 @@ const satoshi = localFont({
 export const metadata: Metadata = {
   title: "Bathala",
   description: "Promotional website for the indie game Bathala",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

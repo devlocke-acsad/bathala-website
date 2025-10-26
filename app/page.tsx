@@ -8,6 +8,8 @@ import Media from "./components/Media";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
+import BackToTopButton from "./components/BackToTopButton";
+
 export default function Home() {
   return (
     <main>
@@ -20,6 +22,7 @@ export default function Home() {
       <Media />
       <About />
       <Footer />
+      <BackToTopButton />
     </main>
   );
 }
