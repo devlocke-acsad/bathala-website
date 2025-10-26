@@ -17,6 +17,9 @@ const config: Config = {
 
   theme: {
     extend: {
+      colors: {
+        primary: '#77888C',
+      },
       fontFamily: {
         pixeled: ['var(--font-pixeled)'],
         heinzHeinrich: ['var(--font-heinz-heinrich)'],

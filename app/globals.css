@@ -66,3 +66,8 @@ body {
   color: #77888C;
   font-family: var(--font-satoshi);
 }
+
+nav a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
