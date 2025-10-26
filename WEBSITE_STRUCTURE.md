@@ -13,7 +13,7 @@ This guide provides the complete structure and copy for a promotional website fo
 Pixeled English Font - 'bathala' title font
 HeinzHeinrich - h2 font
 Dungeon Mode - h3 font
-Supreme - Body Font
+Satoshi - Body Font
 
 
 
