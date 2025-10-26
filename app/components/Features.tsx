@@ -4,9 +4,9 @@ import Image from "next/image";
 const Features = () => {
   return (
     <section id="features" className="py-20 px-4 bg-black text-white">
-      <div className="container mx-auto">
+      <div className="w-3/5 mx-auto">
         <h2 className="text-4xl font-heinzHeinrich text-center mb-12">Key Features</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="text-center">
             <Image src="/file.svg" alt="Strategic Poker-Based Combat Icon" width={96} height={96} className="mx-auto mb-4" />
             <h3 className="text-2xl font-dungeonMode mb-2">Strategic Poker-Based Combat</h3>

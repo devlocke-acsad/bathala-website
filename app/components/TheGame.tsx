@@ -2,9 +2,10 @@
 const TheGame = () => {
   return (
     <section id="the-game" className="py-20 px-4 bg-black text-white">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-heinzHeinrich text-center mb-12">What is Bathala?</h2>
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="w-3/5 mx-auto">
+        <h2 className="text-4xl font-heinzHeinrich text-center mb-12">The Game: An Overview</h2>
+        <h3 className="text-3xl font-dungeonMode mb-4">What is Bathala?</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="mb-4 font-satoshi">*Bathala* is a single-player, deck-building roguelike set in a world steeped in Filipino mythology. The core of the game revolves around a unique <strong>poker-based combat system</strong>. You are the Babaylan, a spiritual leader tasked with a divine quest: to journey through corrupted lands and restore cosmic harmony.</p>
             <p className="mb-4 font-satoshi">Each run challenges you to survive a procedurally generated world, where every encounter and every choice matters. You will:</p>
