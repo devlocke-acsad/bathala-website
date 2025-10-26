@@ -11,7 +11,7 @@ const Navbar = () => {
         left: 0,
         right: 0,
         zIndex: 50,
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        backgroundColor: "rgba(21, 14, 16, 0.5)",
         backdropFilter: "blur(10px)",
         padding: "16px 0",
       }}
@@ -28,6 +28,7 @@ const Navbar = () => {
         }}
       >
         <ul
+          className="font-dungeonMode"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -37,7 +38,6 @@ const Navbar = () => {
             margin: 0,
             padding: 0,
             fontSize: "18px",
-            fontFamily: "inherit",
           }}
         >
           <li>
@@ -45,11 +45,11 @@ const Navbar = () => {
               href="#home"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
               Home
             </Link>
@@ -59,13 +59,13 @@ const Navbar = () => {
               href="#the-game"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
-              The Game
+              Game
             </Link>
           </li>
           <li>
@@ -73,13 +73,13 @@ const Navbar = () => {
               href="#the-world"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
-              The World
+              World
             </Link>
           </li>
           <li>
@@ -87,11 +87,11 @@ const Navbar = () => {
               href="#features"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
               Features
             </Link>
@@ -101,13 +101,13 @@ const Navbar = () => {
               href="#the-thesis"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
-              The Thesis
+              Thesis
             </Link>
           </li>
           <li>
@@ -115,11 +115,11 @@ const Navbar = () => {
               href="#media"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
               Media
             </Link>
@@ -129,11 +129,11 @@ const Navbar = () => {
               href="#about"
               style={{
                 textDecoration: "none",
-                color: "#ffffff",
+                color: "#77888C",
                 transition: "color 0.3s ease",
               }}
               onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
-              onMouseLeave={(e) => (e.target.style.color = "#ffffff")}
+              onMouseLeave={(e) => (e.target.style.color = "#77888C")}
             >
               About
             </Link>
