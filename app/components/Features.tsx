@@ -10,7 +10,7 @@ const Features = () => {
           <div className="text-center">
             <Image src="/file.svg" alt="Strategic Poker-Based Combat Icon" width={96} height={96} className="mx-auto mb-4" />
             <h3 className="text-2xl font-dungeonMode mb-2">Strategic Poker-Based Combat</h3>
-            <p className="font-satoshi">Combat in *Bathala* is intuitive yet deep. You don't just play cards; you form poker hands. A **Pair** might be a simple jab, but a **Full House** or a **Straight Flush** can unleash devastating power.</p>
+            <p className="font-satoshi">Combat in *Bathala* is intuitive yet deep. You don't just play cards; you form poker hands. A <strong>Pair</strong> might be a simple jab, but a <strong>Full House</strong> or a <strong>Straight Flush</strong> can unleash devastating power.</p>
           </div>
           <div className="text-center">
             <Image src="/globe.svg" alt="The Four Elemental Suits Icon" width={96} height={96} className="mx-auto mb-4" />

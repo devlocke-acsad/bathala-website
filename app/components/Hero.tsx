@@ -1,9 +1,16 @@
 
-import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="home" className="h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url(/images/bathala_hero.png)" }}>
+    <section id="home" className="h-screen relative flex items-center justify-center">
+      <div 
+        className="absolute inset-0 w-full h-full bg-cover bg-center -z-10"
+        style={{
+          backgroundImage: "url(/images/bathala_hero.png)",
+          backgroundAttachment: 'fixed',
+        }}
+      ></div>
       <div className="text-center text-white">
         <h1 className="text-8xl font-bathala">BATHALA</h1>
         <p className="text-2xl mt-4 font-satoshi">Mend the Shattered Balance.</p>

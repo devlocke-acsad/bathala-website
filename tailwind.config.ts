@@ -1,5 +1,5 @@
 
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -10,13 +10,23 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        bathala: ['var(--font-bathala)'],
+        pixeled: ['var(--font-pixeled)'],
         heinzHeinrich: ['var(--font-heinz-heinrich)'],
         dungeonMode: ['var(--font-dungeon-mode)'],
         satoshi: ['var(--font-satoshi)'],
       },
     },
   },
-  plugins: [],
-}
-export default config
+  plugins: [
+    function ({ addBase, theme }) {
+      addBase({
+        'strong': { 
+          fontFamily: theme('fontFamily.satoshi'),
+          fontWeight: '700',
+          color: '#77888C',
+        },
+      });
+    },
+  ],
+};
+export default config;

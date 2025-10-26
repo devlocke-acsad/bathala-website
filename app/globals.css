@@ -9,4 +9,5 @@ html {
 body {
   background-color: #150E10;
   color: #77888C;
+  font-family: var(--font-satoshi);
 }

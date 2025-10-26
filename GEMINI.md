@@ -10,7 +10,7 @@ This guide provides the complete structure and copy for a promotional website fo
 #77888C - Primary / Text Color
 #150E10 - Background Color
 
-Pixeled English Font - 'bathala' title font
+Pixeled English Font - title
 HeinzHeinrich - h2 font
 Dungeon Mode - h3 font
 Satoshi - Body Font
