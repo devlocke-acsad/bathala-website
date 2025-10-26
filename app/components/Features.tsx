@@ -3,12 +3,12 @@ import Image from "next/image";
 const Features = () => {
   return (
     <section id="features" className="py-20 px-4 bg-black text-white">
-      <div className="w-3/5 mx-auto text-center">
-        <h2 className="text-4xl font-dungeonMode text-center mb-12 uppercase">
+      <div className="w-full max-w-6xl mx-auto text-center">
+        <h2 className="text-4xl sm:text-3xl font-dungeonMode text-center mb-12 uppercase">
           KEY FEATURES
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               Strategic Poker-Based Combat
             </h3>
@@ -19,7 +19,7 @@ const Features = () => {
               <strong>Straight Flush</strong> can unleash devastating power.
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               The Four Elemental Suits
             </h3>
@@ -29,7 +29,7 @@ const Features = () => {
               and Hangin (Air).
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               A Challenge That Adapts to You (DDA)
             </h3>
@@ -39,7 +39,7 @@ const Features = () => {
               and engaging.
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               Endless Worlds with Procedural Generation (PCG)
             </h3>
@@ -49,7 +49,7 @@ const Features = () => {
               every run.
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               The Landás System: A Narrative Choice
             </h3>
@@ -58,7 +58,7 @@ const Features = () => {
               influencing story outcomes and your ultimate ending.
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <h3 className="text-2xl font-dungeonMode mb-2">
               Powerful Relics & Potions
             </h3>

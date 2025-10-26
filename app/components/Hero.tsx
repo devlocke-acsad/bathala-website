@@ -11,13 +11,13 @@ const Hero = () => {
           backgroundAttachment: 'fixed',
         }}
       ></div>
-      <div className="flex flex-col items-center justify-center w-full">
-        <h1 className="text-[16rem] font-pixeled text-white text-center" >bathala</h1>
-        <div className="w-[40vw] min-w-[320px] max-w-[700px] text-center text-white">
-          <div className="flex justify-center" style={{gap: '1rem',}}>
+      <div className="flex flex-col items-center justify-center w-full px-4">
+        <h1 className="text-[16rem] md:text-[16rem] sm:text-[10rem] xs:text-[6rem] font-pixeled text-white text-center leading-tight" >bathala</h1>
+        <div className="w-[90vw] sm:w-[80vw] md:w-[40vw] min-w-[300px] max-w-[700px] text-center text-white mt-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center" style={{gap: '1rem',}}>
             <Link
               href="https://play.bathala.quest/"
-              className="block px-16 py-6 font-dungeonMode text-3xl no-underline relative"
+              className="block px-16 py-6 font-dungeonMode text-3xl no-underline relative w-full sm:w-auto text-center"
               style={{
                 border: '4px double',
                 borderColor: '#77888C',
@@ -33,7 +33,7 @@ const Hero = () => {
             </Link>
             <Link
               href="#the-game"
-              className="block px-16 py-6 font-dungeonMode text-3xl no-underline relative"
+              className="block px-16 py-6 font-dungeonMode text-3xl no-underline relative w-full sm:w-auto text-center mt-4 sm:mt-0"
               style={{
                 border: '4px double',
                 borderColor: '#77888C',
