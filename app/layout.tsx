@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { pixeled, heinzHeinrich, dungeonMode, satoshi } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,9 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${pixeled.variable} ${heinzHeinrich.variable} ${dungeonMode.variable} ${satoshi.variable}`}
-      >
+      <body>
         {children}
       </body>
     </html>

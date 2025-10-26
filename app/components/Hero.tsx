@@ -12,9 +12,9 @@ const Hero = () => {
         }}
       ></div>
       <div className="text-center text-white">
-        <h1 className="text-8xl font-bathala">BATHALA</h1>
-        <p className="text-2xl mt-4 font-satoshi">Mend the Shattered Balance.</p>
-        <p className="text-lg mt-2 font-satoshi">Wield divine power in a Filipino mythology-inspired roguelike where poker meets ancient spirits. Can you restore what was broken?</p>
+        <h1 className="text-8xl font-pixeled">bathala</h1>
+        <p className="text-2xl mt-4">Mend the Shattered Balance.</p>
+        <p className="text-lg mt-2">Wield divine power in a Filipino mythology-inspired roguelike where poker meets ancient spirits. Can you restore what was broken?</p>
         <Link href="https://adizon.itch.io/bathala" className="bg-white text-black px-8 py-3 mt-8 rounded-full font-bold">Play Now on Itch.io</Link>
       </div>
     </section>

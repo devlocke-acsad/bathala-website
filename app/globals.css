@@ -2,6 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Pixeled English';
+  src: url('/fonts/PixeledEnglishFont.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HeinzHeinrich';
+  src: url('/fonts/HeinzHeinrich-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dungeon Mode';
+  src: url('/fonts/dungeon-mode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-pixeled: 'Pixeled English', sans-serif;
+  --font-heinz-heinrich: 'HeinzHeinrich', sans-serif;
+  --font-dungeon-mode: 'Dungeon Mode', sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
