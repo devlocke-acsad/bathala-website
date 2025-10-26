@@ -4,7 +4,7 @@ import Image from "next/image";
 const TheWorld = () => {
   return (
     <section id="the-world" className="py-20 px-4 bg-black text-white">
-      <div className="w-3/5 mx-auto">
+      <div className="w-3/5 mx-auto text-center">
         <h2 className="text-4xl font-heinzHeinrich text-center mb-12">The World of Bathala</h2>
         <h3 className="text-3xl font-dungeonMode mb-4">A Realm of Myth and Corruption</h3>
         <p className="text-center mb-12 max-w-3xl mx-auto font-satoshi">In the beginning, the divine union of Bathala and Amihan created the islands—a paradise where elemental spirits, the *anito*, lived in perfect balance. But this harmony was shattered. The *engkanto*, spirits of lies and illusion, have twisted the world, corrupting the noble guardians of nature and plunging the realm into chaos.</p>
