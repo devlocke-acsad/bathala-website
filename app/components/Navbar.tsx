@@ -13,7 +13,7 @@ const Navbar = () => {
         zIndex: 50,
         backgroundColor: "rgba(21, 14, 16, 0.5)",
         backdropFilter: "blur(10px)",
-        padding: "16px 0",
+        padding: "24px 0",
       }}
     >
       <div
@@ -24,7 +24,7 @@ const Navbar = () => {
           width: "100%",
           maxWidth: "1200px",
           margin: "0 auto",
-          padding: "0 16px",
+          padding: "0 32px",
         }}
       >
         <ul
@@ -33,11 +33,11 @@ const Navbar = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            gap: "48px",
+            gap: "64px",
             listStyle: "none",
             margin: 0,
             padding: 0,
-            fontSize: "18px",
+            fontSize: "20px",
           }}
         >
           <li>
