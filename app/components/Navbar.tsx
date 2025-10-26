@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-50 backdrop-blur-md">
       <div className="container mx-auto flex justify-center items-center p-4 text-white">
-        <ul className="flex justify-center gap-16 text-lg font-dungeonMode list-none">
+        <ul className="flex justify-center gap-24 text-lg font-dungeonMode list-none">
           <li><Link href="#home" className="no-underline text-primary hover:text-white focus:outline-none">Home</Link></li>
           <li><Link href="#the-game" className="no-underline text-primary hover:text-white focus:outline-none">The Game</Link></li>
           <li><Link href="#the-world" className="no-underline text-primary hover:text-white focus:outline-none">The World</Link></li>
